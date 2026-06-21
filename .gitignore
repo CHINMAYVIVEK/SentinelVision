@@ -1,0 +1,6 @@
+/target
+*.mp4
+*.onnx
+debug/
+docs/
+venv/

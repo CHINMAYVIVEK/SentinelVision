@@ -1,0 +1,11 @@
+[package]
+name = "cv-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = { version = "0.98.2", features = ["clang-runtime"] }
+ort = "2.0.0-rc.12"
+ndarray = "0.17"
+pathfinding = "4.3"
+nalgebra = "0.35.0"
