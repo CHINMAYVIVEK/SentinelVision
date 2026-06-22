@@ -10,7 +10,25 @@ SentinelVision detects objects in video streams, assigns persistent tracking IDs
 
 ---
 
-## 🚀 Features
+## � Example Results
+
+Here are some example detections from the system:
+
+### Raw Input Frame
+![Raw Input Frame](screenshots/frame_001.jpg)
+
+### Sample Detection (Expected)
+![Sample Detection](screenshots/sample_detection.jpg)
+
+### Detection Only
+![Detection Overlay](screenshots/detection_overlay.jpg)
+
+### Detection with Letterbox Preprocessing
+![Detection with Letterbox](screenshots/test_detection_result_letterbox.jpg)
+
+---
+
+## �🚀 Features
 
 * 🎥 Video input support (file or webcam)
 * 🧍 Real-time person/object detection using YOLO (ONNX)
